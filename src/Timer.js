@@ -80,7 +80,7 @@ function Timer() {
           : <PauseButton onClick={() => { setIsPaused(true); isPausedRef.current = true; }} />}
       </div>
       <div style={{marginTop:'20px'}}>
-        <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
+        <SettingsButton onClick={() => { settingsInfo.setShowSettings(true)}} />
       </div>
     </div>
   );
